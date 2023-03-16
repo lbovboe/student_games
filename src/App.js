@@ -2,13 +2,21 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import SingleCard from './components/SingleCard'
 
+// const cardImages = [
+//   { "src": "/img/helmet-1.png", matched: false },
+//   { "src": "/img/potion-1.png", matched: false },
+//   { "src": "/img/ring-1.png", matched: false },
+//   { "src": "/img/scroll-1.png", matched: false },
+//   { "src": "/img/shield-1.png", matched: false },
+//   { "src": "/img/sword-1.png", matched: false },
+// ]
 const cardImages = [
-  { "src": "/img/helmet-1.png", matched: false },
-  { "src": "/img/potion-1.png", matched: false },
-  { "src": "/img/ring-1.png", matched: false },
-  { "src": "/img/scroll-1.png", matched: false },
-  { "src": "/img/shield-1.png", matched: false },
-  { "src": "/img/sword-1.png", matched: false },
+  { "src": "/img/childe.jpg", matched: false },
+  { "src": "/img/klee.jpg", matched: false },
+  { "src": "/img/kasuha.jpg", matched: false },
+  { "src": "/img/zhongli.png", matched: false },
+  { "src": "/img/noname1.jpg", matched: false },
+  { "src": "/img/xiao.jpg", matched: false },
 ]
 
 function App() {
